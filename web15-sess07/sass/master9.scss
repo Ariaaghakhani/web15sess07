@@ -1,0 +1,11 @@
+$num:0;
+.bt{
+    border: 2px solid red;
+}
+.bool{
+    width: 100px;
+    height: 100%;
+    @if($num!=1){
+        @extend .bt
+    }
+}

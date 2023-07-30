@@ -1,0 +1,29 @@
+.box {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+.box > div {
+  border: 2px solid red;
+  display: flex;
+}
+.box > div > ul {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  border: 2px solid black;
+}
+.box > div > ul > li {
+  width: 80%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.box > div > ul > li > a {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+}/*# sourceMappingURL=master.css.map */

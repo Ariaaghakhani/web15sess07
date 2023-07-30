@@ -1,0 +1,8 @@
+.box{
+    width: 300px;
+    height: 180px;
+    &1{
+        background-color: red;
+        @extend .box;
+    }
+}

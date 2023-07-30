@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bt, .div, .box {
+  border: 2px solid red;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: italic;
+}
+
+.div {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=master5.css.map */

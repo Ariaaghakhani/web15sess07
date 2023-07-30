@@ -1,0 +1,43 @@
+$count:0;
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.anim{
+    width: 600px;
+    height: 800px;
+    margin: 200px auto;
+    position: relative;
+    // border:2px solid red;
+    >*{
+        position: absolute;
+        top: 0;
+    }
+    >img{
+        width: 100%;
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+    }
+    >div{
+        width: 2%;
+        height: 100%;
+        background-color: rgba(36, 36, 36, 0.463);
+        transition: 1s;
+        @for $i from 1 through 50{
+            &:nth-of-type(#{$i}){
+                // left:((2*$count)+2)+0%;
+                left: (2*$count)+0%;
+            } 
+            $count : $count+1;
+
+        }
+    }
+    &:hover>div{
+        background-color: rgba(36, 36, 36, 0);
+        left: 0;
+    }
+}

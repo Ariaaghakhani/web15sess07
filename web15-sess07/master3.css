@@ -1,0 +1,3221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(45deg, rgb(33, 33, 54), rgb(23, 23, 46), rgb(35, 35, 91));
+  overflow: hidden;
+  transition: 50s;
+  position: relative;
+}
+main > div {
+  position: absolute;
+  border-radius: 50%;
+}
+main > div:nth-of-type(1) {
+  background-color: rgb(156, 10, 151);
+  bottom: -20px;
+  left: 45%;
+  transition: 11s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(2) {
+  background-color: rgb(212, 55, 121);
+  bottom: -704px;
+  left: 46%;
+  transition: 12s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(3) {
+  background-color: rgb(148, 33, 237);
+  bottom: -219px;
+  left: 35%;
+  transition: 15s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(4) {
+  background-color: rgb(151, 238, 253);
+  bottom: -349px;
+  left: 99%;
+  transition: 9s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(5) {
+  background-color: rgb(166, 28, 66);
+  bottom: -749px;
+  left: 34%;
+  transition: 13s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(6) {
+  background-color: rgb(42, 246, 59);
+  bottom: -426px;
+  left: 93%;
+  transition: 6s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(7) {
+  background-color: rgb(18, 11, 215);
+  bottom: -552px;
+  left: 90%;
+  transition: 11s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(8) {
+  background-color: rgb(3, 46, 180);
+  bottom: -662px;
+  left: 25%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(9) {
+  background-color: rgb(152, 236, 93);
+  bottom: -85px;
+  left: 60%;
+  transition: 14s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(10) {
+  background-color: rgb(76, 112, 4);
+  bottom: -12px;
+  left: 59%;
+  transition: 8s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(11) {
+  background-color: rgb(109, 39, 112);
+  bottom: -509px;
+  left: 28%;
+  transition: 7s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(12) {
+  background-color: rgb(197, 14, 9);
+  bottom: -435px;
+  left: 45%;
+  transition: 14s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(13) {
+  background-color: rgb(172, 82, 145);
+  bottom: -132px;
+  left: 85%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(14) {
+  background-color: rgb(227, 179, 19);
+  bottom: -752px;
+  left: 34%;
+  transition: 10s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(15) {
+  background-color: rgb(188, 230, 225);
+  bottom: -546px;
+  left: 91%;
+  transition: 6s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(16) {
+  background-color: rgb(146, 246, 174);
+  bottom: -495px;
+  left: 45%;
+  transition: 7s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(17) {
+  background-color: rgb(57, 9, 240);
+  bottom: -192px;
+  left: 21%;
+  transition: 6s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(18) {
+  background-color: rgb(29, 151, 27);
+  bottom: -6px;
+  left: 67%;
+  transition: 8s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(19) {
+  background-color: rgb(193, 93, 156);
+  bottom: -503px;
+  left: 40%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(20) {
+  background-color: rgb(32, 54, 55);
+  bottom: -39px;
+  left: 80%;
+  transition: 13s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(21) {
+  background-color: rgb(44, 62, 16);
+  bottom: -65px;
+  left: 50%;
+  transition: 13s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(22) {
+  background-color: rgb(32, 83, 18);
+  bottom: -427px;
+  left: 33%;
+  transition: 8s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(23) {
+  background-color: rgb(13, 87, 182);
+  bottom: -217px;
+  left: 43%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(24) {
+  background-color: rgb(238, 74, 30);
+  bottom: -429px;
+  left: 79%;
+  transition: 13s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(25) {
+  background-color: rgb(143, 140, 162);
+  bottom: -54px;
+  left: 54%;
+  transition: 12s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(26) {
+  background-color: rgb(247, 163, 143);
+  bottom: -86px;
+  left: 69%;
+  transition: 6s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(27) {
+  background-color: rgb(89, 12, 213);
+  bottom: -793px;
+  left: 88%;
+  transition: 11s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(28) {
+  background-color: rgb(153, 152, 252);
+  bottom: -123px;
+  left: 92%;
+  transition: 6s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(29) {
+  background-color: rgb(160, 179, 45);
+  bottom: -412px;
+  left: 85%;
+  transition: 11s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(30) {
+  background-color: rgb(250, 88, 194);
+  bottom: -164px;
+  left: 1%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(31) {
+  background-color: rgb(135, 114, 148);
+  bottom: -247px;
+  left: 98%;
+  transition: 9s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(32) {
+  background-color: rgb(166, 122, 82);
+  bottom: -692px;
+  left: 67%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(33) {
+  background-color: rgb(254, 173, 76);
+  bottom: -704px;
+  left: 40%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(34) {
+  background-color: rgb(13, 94, 49);
+  bottom: -763px;
+  left: 34%;
+  transition: 9s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(35) {
+  background-color: rgb(150, 193, 101);
+  bottom: -595px;
+  left: 29%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(36) {
+  background-color: rgb(209, 3, 152);
+  bottom: -309px;
+  left: 86%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(37) {
+  background-color: rgb(45, 195, 62);
+  bottom: -243px;
+  left: 27%;
+  transition: 13s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(38) {
+  background-color: rgb(32, 84, 152);
+  bottom: -270px;
+  left: 69%;
+  transition: 7s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(39) {
+  background-color: rgb(20, 138, 78);
+  bottom: -308px;
+  left: 13%;
+  transition: 13s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(40) {
+  background-color: rgb(222, 48, 238);
+  bottom: -554px;
+  left: 72%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(41) {
+  background-color: rgb(149, 187, 55);
+  bottom: -341px;
+  left: 66%;
+  transition: 14s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(42) {
+  background-color: rgb(158, 210, 250);
+  bottom: -619px;
+  left: 14%;
+  transition: 11s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(43) {
+  background-color: rgb(254, 11, 128);
+  bottom: -624px;
+  left: 39%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(44) {
+  background-color: rgb(70, 112, 143);
+  bottom: -291px;
+  left: 95%;
+  transition: 14s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(45) {
+  background-color: rgb(167, 7, 163);
+  bottom: -185px;
+  left: 27%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(46) {
+  background-color: rgb(176, 54, 19);
+  bottom: -780px;
+  left: 2%;
+  transition: 14s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(47) {
+  background-color: rgb(198, 152, 181);
+  bottom: -383px;
+  left: 51%;
+  transition: 12s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(48) {
+  background-color: rgb(99, 32, 95);
+  bottom: -184px;
+  left: 24%;
+  transition: 13s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(49) {
+  background-color: rgb(138, 11, 20);
+  bottom: -118px;
+  left: 4%;
+  transition: 13s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(50) {
+  background-color: rgb(73, 23, 172);
+  bottom: -69px;
+  left: 9%;
+  transition: 11s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(51) {
+  background-color: rgb(80, 116, 184);
+  bottom: -350px;
+  left: 72%;
+  transition: 14s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(52) {
+  background-color: rgb(84, 223, 110);
+  bottom: -404px;
+  left: 2%;
+  transition: 6s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(53) {
+  background-color: rgb(181, 201, 67);
+  bottom: -169px;
+  left: 31%;
+  transition: 6s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(54) {
+  background-color: rgb(110, 224, 98);
+  bottom: -79px;
+  left: 7%;
+  transition: 11s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(55) {
+  background-color: rgb(45, 135, 57);
+  bottom: -470px;
+  left: 87%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(56) {
+  background-color: rgb(65, 197, 16);
+  bottom: -4px;
+  left: 67%;
+  transition: 12s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(57) {
+  background-color: rgb(175, 175, 111);
+  bottom: -408px;
+  left: 28%;
+  transition: 11s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(58) {
+  background-color: rgb(83, 184, 255);
+  bottom: -207px;
+  left: 18%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(59) {
+  background-color: rgb(212, 204, 170);
+  bottom: -331px;
+  left: 80%;
+  transition: 14s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(60) {
+  background-color: rgb(73, 27, 106);
+  bottom: -146px;
+  left: 55%;
+  transition: 14s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(61) {
+  background-color: rgb(122, 48, 86);
+  bottom: -635px;
+  left: 60%;
+  transition: 6s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(62) {
+  background-color: rgb(237, 212, 12);
+  bottom: -680px;
+  left: 87%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(63) {
+  background-color: rgb(100, 47, 49);
+  bottom: -691px;
+  left: 58%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(64) {
+  background-color: rgb(245, 150, 91);
+  bottom: -610px;
+  left: 2%;
+  transition: 14s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(65) {
+  background-color: rgb(119, 108, 239);
+  bottom: -324px;
+  left: 80%;
+  transition: 8s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(66) {
+  background-color: rgb(55, 223, 107);
+  bottom: -739px;
+  left: 4%;
+  transition: 8s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(67) {
+  background-color: rgb(16, 83, 217);
+  bottom: -322px;
+  left: 74%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(68) {
+  background-color: rgb(246, 28, 161);
+  bottom: -61px;
+  left: 96%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(69) {
+  background-color: rgb(194, 188, 235);
+  bottom: -203px;
+  left: 92%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(70) {
+  background-color: rgb(10, 79, 119);
+  bottom: -706px;
+  left: 97%;
+  transition: 6s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(71) {
+  background-color: rgb(173, 237, 223);
+  bottom: -651px;
+  left: 40%;
+  transition: 12s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(72) {
+  background-color: rgb(12, 156, 130);
+  bottom: -324px;
+  left: 58%;
+  transition: 9s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(73) {
+  background-color: rgb(103, 140, 110);
+  bottom: -325px;
+  left: 51%;
+  transition: 15s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(74) {
+  background-color: rgb(87, 18, 217);
+  bottom: -412px;
+  left: 6%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(75) {
+  background-color: rgb(230, 9, 163);
+  bottom: -505px;
+  left: 70%;
+  transition: 15s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(76) {
+  background-color: rgb(200, 122, 192);
+  bottom: -405px;
+  left: 74%;
+  transition: 13s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(77) {
+  background-color: rgb(124, 39, 30);
+  bottom: -276px;
+  left: 80%;
+  transition: 8s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(78) {
+  background-color: rgb(240, 28, 46);
+  bottom: -658px;
+  left: 17%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(79) {
+  background-color: rgb(150, 226, 235);
+  bottom: -152px;
+  left: 69%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(80) {
+  background-color: rgb(214, 169, 35);
+  bottom: -310px;
+  left: 92%;
+  transition: 13s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(81) {
+  background-color: rgb(84, 186, 163);
+  bottom: -71px;
+  left: 26%;
+  transition: 15s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(82) {
+  background-color: rgb(4, 54, 29);
+  bottom: -628px;
+  left: 9%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(83) {
+  background-color: rgb(240, 101, 55);
+  bottom: -718px;
+  left: 81%;
+  transition: 6s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(84) {
+  background-color: rgb(65, 168, 42);
+  bottom: -311px;
+  left: 78%;
+  transition: 7s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(85) {
+  background-color: rgb(162, 77, 227);
+  bottom: -79px;
+  left: 46%;
+  transition: 13s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(86) {
+  background-color: rgb(142, 33, 44);
+  bottom: -599px;
+  left: 95%;
+  transition: 10s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(87) {
+  background-color: rgb(48, 27, 6);
+  bottom: -370px;
+  left: 74%;
+  transition: 12s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(88) {
+  background-color: rgb(58, 241, 202);
+  bottom: -757px;
+  left: 4%;
+  transition: 9s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(89) {
+  background-color: rgb(148, 211, 208);
+  bottom: -85px;
+  left: 15%;
+  transition: 14s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(90) {
+  background-color: rgb(113, 86, 81);
+  bottom: -594px;
+  left: 54%;
+  transition: 12s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(91) {
+  background-color: rgb(140, 247, 169);
+  bottom: -700px;
+  left: 65%;
+  transition: 10s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(92) {
+  background-color: rgb(8, 247, 119);
+  bottom: -467px;
+  left: 36%;
+  transition: 13s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(93) {
+  background-color: rgb(2, 173, 85);
+  bottom: -687px;
+  left: 87%;
+  transition: 15s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(94) {
+  background-color: rgb(199, 110, 215);
+  bottom: -739px;
+  left: 95%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(95) {
+  background-color: rgb(80, 177, 32);
+  bottom: -284px;
+  left: 5%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(96) {
+  background-color: rgb(114, 169, 227);
+  bottom: -486px;
+  left: 5%;
+  transition: 12s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(97) {
+  background-color: rgb(172, 73, 137);
+  bottom: -750px;
+  left: 59%;
+  transition: 10s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(98) {
+  background-color: rgb(233, 48, 119);
+  bottom: -131px;
+  left: 69%;
+  transition: 9s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(99) {
+  background-color: rgb(177, 26, 78);
+  bottom: -580px;
+  left: 9%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(100) {
+  background-color: rgb(187, 192, 195);
+  bottom: -352px;
+  left: 96%;
+  transition: 11s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(101) {
+  background-color: rgb(81, 193, 61);
+  bottom: -223px;
+  left: 96%;
+  transition: 8s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(102) {
+  background-color: rgb(110, 251, 57);
+  bottom: -716px;
+  left: 92%;
+  transition: 11s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(103) {
+  background-color: rgb(227, 255, 254);
+  bottom: -630px;
+  left: 11%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(104) {
+  background-color: rgb(221, 143, 79);
+  bottom: -15px;
+  left: 2%;
+  transition: 7s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(105) {
+  background-color: rgb(173, 25, 51);
+  bottom: -411px;
+  left: 44%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(106) {
+  background-color: rgb(159, 140, 152);
+  bottom: -182px;
+  left: 54%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(107) {
+  background-color: rgb(201, 39, 135);
+  bottom: -490px;
+  left: 38%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(108) {
+  background-color: rgb(15, 84, 224);
+  bottom: -305px;
+  left: 70%;
+  transition: 11s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(109) {
+  background-color: rgb(29, 185, 151);
+  bottom: -597px;
+  left: 76%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(110) {
+  background-color: rgb(209, 233, 114);
+  bottom: -177px;
+  left: 80%;
+  transition: 6s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(111) {
+  background-color: rgb(77, 202, 231);
+  bottom: -341px;
+  left: 18%;
+  transition: 9s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(112) {
+  background-color: rgb(97, 227, 235);
+  bottom: -790px;
+  left: 13%;
+  transition: 8s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(113) {
+  background-color: rgb(246, 21, 160);
+  bottom: -293px;
+  left: 79%;
+  transition: 6s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(114) {
+  background-color: rgb(255, 246, 36);
+  bottom: -175px;
+  left: 51%;
+  transition: 11s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(115) {
+  background-color: rgb(173, 218, 53);
+  bottom: -461px;
+  left: 85%;
+  transition: 9s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(116) {
+  background-color: rgb(118, 71, 49);
+  bottom: -52px;
+  left: 60%;
+  transition: 14s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(117) {
+  background-color: rgb(151, 136, 241);
+  bottom: -11px;
+  left: 25%;
+  transition: 7s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(118) {
+  background-color: rgb(227, 117, 35);
+  bottom: -302px;
+  left: 99%;
+  transition: 12s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(119) {
+  background-color: rgb(116, 141, 236);
+  bottom: -578px;
+  left: 94%;
+  transition: 13s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(120) {
+  background-color: rgb(52, 162, 12);
+  bottom: -62px;
+  left: 49%;
+  transition: 6s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(121) {
+  background-color: rgb(118, 152, 142);
+  bottom: -486px;
+  left: 23%;
+  transition: 12s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(122) {
+  background-color: rgb(234, 150, 99);
+  bottom: -197px;
+  left: 16%;
+  transition: 9s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(123) {
+  background-color: rgb(127, 214, 63);
+  bottom: -283px;
+  left: 90%;
+  transition: 13s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(124) {
+  background-color: rgb(217, 119, 63);
+  bottom: -218px;
+  left: 76%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(125) {
+  background-color: rgb(13, 59, 240);
+  bottom: -473px;
+  left: 16%;
+  transition: 8s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(126) {
+  background-color: rgb(76, 73, 4);
+  bottom: -486px;
+  left: 58%;
+  transition: 8s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(127) {
+  background-color: rgb(177, 121, 55);
+  bottom: -135px;
+  left: 31%;
+  transition: 12s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(128) {
+  background-color: rgb(73, 104, 203);
+  bottom: -565px;
+  left: 26%;
+  transition: 7s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(129) {
+  background-color: rgb(42, 180, 237);
+  bottom: -380px;
+  left: 73%;
+  transition: 11s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(130) {
+  background-color: rgb(206, 253, 175);
+  bottom: -384px;
+  left: 19%;
+  transition: 8s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(131) {
+  background-color: rgb(142, 139, 30);
+  bottom: -307px;
+  left: 84%;
+  transition: 14s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(132) {
+  background-color: rgb(26, 227, 211);
+  bottom: -451px;
+  left: 76%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(133) {
+  background-color: rgb(135, 138, 232);
+  bottom: -343px;
+  left: 3%;
+  transition: 15s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(134) {
+  background-color: rgb(107, 252, 12);
+  bottom: -438px;
+  left: 63%;
+  transition: 9s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(135) {
+  background-color: rgb(110, 42, 129);
+  bottom: -577px;
+  left: 84%;
+  transition: 12s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(136) {
+  background-color: rgb(92, 29, 205);
+  bottom: -423px;
+  left: 25%;
+  transition: 7s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(137) {
+  background-color: rgb(162, 44, 190);
+  bottom: -482px;
+  left: 75%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(138) {
+  background-color: rgb(140, 113, 106);
+  bottom: -30px;
+  left: 15%;
+  transition: 9s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(139) {
+  background-color: rgb(241, 51, 241);
+  bottom: -606px;
+  left: 65%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(140) {
+  background-color: rgb(69, 115, 174);
+  bottom: -528px;
+  left: 22%;
+  transition: 10s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(141) {
+  background-color: rgb(167, 185, 227);
+  bottom: -38px;
+  left: 58%;
+  transition: 11s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(142) {
+  background-color: rgb(80, 238, 125);
+  bottom: -613px;
+  left: 28%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(143) {
+  background-color: rgb(173, 227, 48);
+  bottom: -388px;
+  left: 96%;
+  transition: 7s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(144) {
+  background-color: rgb(183, 122, 219);
+  bottom: -654px;
+  left: 39%;
+  transition: 13s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(145) {
+  background-color: rgb(251, 134, 128);
+  bottom: -188px;
+  left: 47%;
+  transition: 13s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(146) {
+  background-color: rgb(44, 57, 244);
+  bottom: -624px;
+  left: 70%;
+  transition: 7s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(147) {
+  background-color: rgb(245, 195, 173);
+  bottom: -778px;
+  left: 81%;
+  transition: 12s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(148) {
+  background-color: rgb(121, 41, 27);
+  bottom: -162px;
+  left: 8%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(149) {
+  background-color: rgb(232, 90, 76);
+  bottom: -112px;
+  left: 55%;
+  transition: 12s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(150) {
+  background-color: rgb(48, 118, 232);
+  bottom: -102px;
+  left: 22%;
+  transition: 8s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(151) {
+  background-color: rgb(215, 167, 177);
+  bottom: -273px;
+  left: 94%;
+  transition: 9s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(152) {
+  background-color: rgb(69, 57, 30);
+  bottom: -271px;
+  left: 100%;
+  transition: 7s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(153) {
+  background-color: rgb(214, 27, 123);
+  bottom: -160px;
+  left: 23%;
+  transition: 6s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(154) {
+  background-color: rgb(25, 223, 111);
+  bottom: -391px;
+  left: 22%;
+  transition: 11s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(155) {
+  background-color: rgb(236, 253, 116);
+  bottom: -695px;
+  left: 30%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(156) {
+  background-color: rgb(27, 17, 248);
+  bottom: -247px;
+  left: 94%;
+  transition: 9s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(157) {
+  background-color: rgb(166, 33, 200);
+  bottom: -763px;
+  left: 86%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(158) {
+  background-color: rgb(76, 186, 27);
+  bottom: -139px;
+  left: 55%;
+  transition: 7s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(159) {
+  background-color: rgb(26, 129, 247);
+  bottom: -374px;
+  left: 4%;
+  transition: 8s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(160) {
+  background-color: rgb(219, 180, 214);
+  bottom: -394px;
+  left: 56%;
+  transition: 7s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(161) {
+  background-color: rgb(213, 108, 4);
+  bottom: -520px;
+  left: 6%;
+  transition: 11s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(162) {
+  background-color: rgb(105, 4, 116);
+  bottom: -201px;
+  left: 93%;
+  transition: 7s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(163) {
+  background-color: rgb(117, 28, 35);
+  bottom: -185px;
+  left: 31%;
+  transition: 10s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(164) {
+  background-color: rgb(186, 8, 52);
+  bottom: -742px;
+  left: 75%;
+  transition: 9s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(165) {
+  background-color: rgb(13, 252, 163);
+  bottom: -228px;
+  left: 86%;
+  transition: 12s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(166) {
+  background-color: rgb(112, 223, 92);
+  bottom: -543px;
+  left: 74%;
+  transition: 13s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(167) {
+  background-color: rgb(231, 39, 227);
+  bottom: -245px;
+  left: 15%;
+  transition: 13s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(168) {
+  background-color: rgb(94, 14, 83);
+  bottom: -426px;
+  left: 31%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(169) {
+  background-color: rgb(1, 164, 111);
+  bottom: -224px;
+  left: 72%;
+  transition: 13s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(170) {
+  background-color: rgb(221, 138, 188);
+  bottom: -622px;
+  left: 63%;
+  transition: 15s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(171) {
+  background-color: rgb(139, 61, 240);
+  bottom: -142px;
+  left: 43%;
+  transition: 6s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(172) {
+  background-color: rgb(126, 35, 240);
+  bottom: -245px;
+  left: 89%;
+  transition: 6s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(173) {
+  background-color: rgb(164, 26, 179);
+  bottom: -578px;
+  left: 48%;
+  transition: 14s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(174) {
+  background-color: rgb(225, 23, 196);
+  bottom: -117px;
+  left: 54%;
+  transition: 8s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(175) {
+  background-color: rgb(38, 228, 186);
+  bottom: -798px;
+  left: 78%;
+  transition: 14s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(176) {
+  background-color: rgb(110, 145, 63);
+  bottom: -488px;
+  left: 80%;
+  transition: 9s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(177) {
+  background-color: rgb(240, 140, 157);
+  bottom: -193px;
+  left: 51%;
+  transition: 12s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(178) {
+  background-color: rgb(174, 15, 222);
+  bottom: -735px;
+  left: 86%;
+  transition: 7s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(179) {
+  background-color: rgb(96, 158, 44);
+  bottom: -472px;
+  left: 86%;
+  transition: 7s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(180) {
+  background-color: rgb(74, 15, 97);
+  bottom: -773px;
+  left: 86%;
+  transition: 9s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(181) {
+  background-color: rgb(116, 169, 154);
+  bottom: -52px;
+  left: 100%;
+  transition: 9s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(182) {
+  background-color: rgb(67, 74, 68);
+  bottom: -785px;
+  left: 27%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(183) {
+  background-color: rgb(48, 229, 183);
+  bottom: -311px;
+  left: 60%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(184) {
+  background-color: rgb(213, 169, 142);
+  bottom: -714px;
+  left: 98%;
+  transition: 14s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(185) {
+  background-color: rgb(163, 188, 47);
+  bottom: -569px;
+  left: 82%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(186) {
+  background-color: rgb(144, 60, 72);
+  bottom: -362px;
+  left: 97%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(187) {
+  background-color: rgb(135, 161, 101);
+  bottom: -211px;
+  left: 94%;
+  transition: 6s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(188) {
+  background-color: rgb(8, 227, 65);
+  bottom: -235px;
+  left: 35%;
+  transition: 15s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(189) {
+  background-color: rgb(82, 220, 17);
+  bottom: -30px;
+  left: 90%;
+  transition: 9s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(190) {
+  background-color: rgb(121, 44, 81);
+  bottom: -636px;
+  left: 16%;
+  transition: 15s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(191) {
+  background-color: rgb(169, 246, 241);
+  bottom: -392px;
+  left: 48%;
+  transition: 6s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(192) {
+  background-color: rgb(211, 252, 89);
+  bottom: -437px;
+  left: 82%;
+  transition: 10s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(193) {
+  background-color: rgb(6, 151, 138);
+  bottom: -375px;
+  left: 94%;
+  transition: 12s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(194) {
+  background-color: rgb(247, 21, 253);
+  bottom: -419px;
+  left: 80%;
+  transition: 13s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(195) {
+  background-color: rgb(149, 139, 74);
+  bottom: -266px;
+  left: 83%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(196) {
+  background-color: rgb(63, 226, 36);
+  bottom: -135px;
+  left: 91%;
+  transition: 15s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(197) {
+  background-color: rgb(140, 134, 23);
+  bottom: -560px;
+  left: 49%;
+  transition: 6s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(198) {
+  background-color: rgb(189, 63, 111);
+  bottom: -374px;
+  left: 15%;
+  transition: 10s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(199) {
+  background-color: rgb(48, 123, 19);
+  bottom: -666px;
+  left: 75%;
+  transition: 6s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(200) {
+  background-color: rgb(77, 255, 146);
+  bottom: -204px;
+  left: 12%;
+  transition: 9s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(201) {
+  background-color: rgb(56, 220, 8);
+  bottom: -695px;
+  left: 28%;
+  transition: 7s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(202) {
+  background-color: rgb(248, 148, 247);
+  bottom: -63px;
+  left: 82%;
+  transition: 12s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(203) {
+  background-color: rgb(176, 79, 89);
+  bottom: -602px;
+  left: 89%;
+  transition: 9s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(204) {
+  background-color: rgb(148, 24, 214);
+  bottom: -538px;
+  left: 82%;
+  transition: 13s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(205) {
+  background-color: rgb(33, 116, 185);
+  bottom: -204px;
+  left: 98%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(206) {
+  background-color: rgb(251, 182, 54);
+  bottom: -178px;
+  left: 64%;
+  transition: 12s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(207) {
+  background-color: rgb(228, 255, 8);
+  bottom: -3px;
+  left: 33%;
+  transition: 12s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(208) {
+  background-color: rgb(187, 112, 29);
+  bottom: -18px;
+  left: 87%;
+  transition: 6s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(209) {
+  background-color: rgb(124, 228, 26);
+  bottom: -710px;
+  left: 21%;
+  transition: 9s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(210) {
+  background-color: rgb(34, 238, 105);
+  bottom: -149px;
+  left: 35%;
+  transition: 15s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(211) {
+  background-color: rgb(225, 86, 120);
+  bottom: -203px;
+  left: 57%;
+  transition: 12s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(212) {
+  background-color: rgb(137, 2, 174);
+  bottom: -318px;
+  left: 50%;
+  transition: 10s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(213) {
+  background-color: rgb(12, 88, 80);
+  bottom: -231px;
+  left: 60%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(214) {
+  background-color: rgb(97, 97, 165);
+  bottom: -695px;
+  left: 87%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(215) {
+  background-color: rgb(101, 209, 251);
+  bottom: -129px;
+  left: 95%;
+  transition: 15s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(216) {
+  background-color: rgb(180, 73, 239);
+  bottom: -528px;
+  left: 35%;
+  transition: 12s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(217) {
+  background-color: rgb(129, 255, 103);
+  bottom: -633px;
+  left: 76%;
+  transition: 13s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(218) {
+  background-color: rgb(190, 70, 113);
+  bottom: -708px;
+  left: 12%;
+  transition: 6s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(219) {
+  background-color: rgb(40, 120, 228);
+  bottom: -217px;
+  left: 13%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(220) {
+  background-color: rgb(185, 112, 214);
+  bottom: -37px;
+  left: 50%;
+  transition: 13s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(221) {
+  background-color: rgb(230, 228, 157);
+  bottom: -145px;
+  left: 48%;
+  transition: 12s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(222) {
+  background-color: rgb(173, 133, 112);
+  bottom: -460px;
+  left: 77%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(223) {
+  background-color: rgb(35, 219, 123);
+  bottom: -223px;
+  left: 51%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(224) {
+  background-color: rgb(143, 78, 183);
+  bottom: -95px;
+  left: 53%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(225) {
+  background-color: rgb(132, 25, 55);
+  bottom: -207px;
+  left: 55%;
+  transition: 6s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(226) {
+  background-color: rgb(88, 87, 213);
+  bottom: -657px;
+  left: 2%;
+  transition: 8s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(227) {
+  background-color: rgb(117, 73, 236);
+  bottom: -347px;
+  left: 14%;
+  transition: 14s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(228) {
+  background-color: rgb(77, 120, 241);
+  bottom: -344px;
+  left: 63%;
+  transition: 8s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(229) {
+  background-color: rgb(49, 213, 85);
+  bottom: -612px;
+  left: 84%;
+  transition: 15s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(230) {
+  background-color: rgb(38, 142, 200);
+  bottom: -165px;
+  left: 45%;
+  transition: 9s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(231) {
+  background-color: rgb(69, 59, 64);
+  bottom: -50px;
+  left: 15%;
+  transition: 13s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(232) {
+  background-color: rgb(163, 238, 33);
+  bottom: -603px;
+  left: 64%;
+  transition: 12s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(233) {
+  background-color: rgb(218, 187, 240);
+  bottom: -538px;
+  left: 1%;
+  transition: 8s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(234) {
+  background-color: rgb(100, 19, 80);
+  bottom: -274px;
+  left: 29%;
+  transition: 11s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(235) {
+  background-color: rgb(20, 84, 101);
+  bottom: -522px;
+  left: 17%;
+  transition: 14s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(236) {
+  background-color: rgb(159, 1, 97);
+  bottom: -216px;
+  left: 77%;
+  transition: 10s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(237) {
+  background-color: rgb(159, 208, 65);
+  bottom: -303px;
+  left: 58%;
+  transition: 14s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(238) {
+  background-color: rgb(194, 56, 88);
+  bottom: -143px;
+  left: 33%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(239) {
+  background-color: rgb(203, 109, 205);
+  bottom: -688px;
+  left: 16%;
+  transition: 11s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(240) {
+  background-color: rgb(132, 171, 211);
+  bottom: -596px;
+  left: 52%;
+  transition: 6s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(241) {
+  background-color: rgb(134, 173, 46);
+  bottom: -708px;
+  left: 29%;
+  transition: 12s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(242) {
+  background-color: rgb(225, 80, 56);
+  bottom: -404px;
+  left: 42%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(243) {
+  background-color: rgb(86, 88, 178);
+  bottom: -422px;
+  left: 67%;
+  transition: 13s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(244) {
+  background-color: rgb(208, 187, 87);
+  bottom: -120px;
+  left: 38%;
+  transition: 10s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(245) {
+  background-color: rgb(72, 188, 146);
+  bottom: -39px;
+  left: 7%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(246) {
+  background-color: rgb(157, 226, 243);
+  bottom: -616px;
+  left: 64%;
+  transition: 11s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(247) {
+  background-color: rgb(24, 63, 159);
+  bottom: -284px;
+  left: 20%;
+  transition: 15s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(248) {
+  background-color: rgb(255, 86, 89);
+  bottom: -414px;
+  left: 16%;
+  transition: 14s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(249) {
+  background-color: rgb(207, 7, 150);
+  bottom: -323px;
+  left: 9%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(250) {
+  background-color: rgb(236, 217, 244);
+  bottom: -478px;
+  left: 97%;
+  transition: 11s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(251) {
+  background-color: rgb(115, 6, 7);
+  bottom: -4px;
+  left: 22%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(252) {
+  background-color: rgb(57, 70, 123);
+  bottom: -506px;
+  left: 1%;
+  transition: 7s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(253) {
+  background-color: rgb(195, 48, 173);
+  bottom: -417px;
+  left: 80%;
+  transition: 15s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(254) {
+  background-color: rgb(187, 130, 248);
+  bottom: -735px;
+  left: 90%;
+  transition: 9s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(255) {
+  background-color: rgb(127, 234, 239);
+  bottom: -635px;
+  left: 36%;
+  transition: 10s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(256) {
+  background-color: rgb(238, 183, 255);
+  bottom: -749px;
+  left: 51%;
+  transition: 10s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(257) {
+  background-color: rgb(222, 215, 89);
+  bottom: -676px;
+  left: 73%;
+  transition: 10s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(258) {
+  background-color: rgb(23, 222, 144);
+  bottom: -527px;
+  left: 91%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(259) {
+  background-color: rgb(95, 43, 6);
+  bottom: -78px;
+  left: 57%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(260) {
+  background-color: rgb(100, 175, 158);
+  bottom: -134px;
+  left: 69%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(261) {
+  background-color: rgb(102, 117, 97);
+  bottom: -29px;
+  left: 15%;
+  transition: 12s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(262) {
+  background-color: rgb(61, 49, 107);
+  bottom: -761px;
+  left: 97%;
+  transition: 8s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(263) {
+  background-color: rgb(35, 242, 134);
+  bottom: -487px;
+  left: 67%;
+  transition: 13s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(264) {
+  background-color: rgb(184, 220, 251);
+  bottom: -167px;
+  left: 69%;
+  transition: 14s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(265) {
+  background-color: rgb(54, 133, 180);
+  bottom: -513px;
+  left: 12%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(266) {
+  background-color: rgb(201, 117, 124);
+  bottom: -200px;
+  left: 75%;
+  transition: 12s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(267) {
+  background-color: rgb(25, 77, 183);
+  bottom: -39px;
+  left: 40%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(268) {
+  background-color: rgb(123, 249, 72);
+  bottom: -571px;
+  left: 87%;
+  transition: 14s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(269) {
+  background-color: rgb(93, 51, 211);
+  bottom: -770px;
+  left: 99%;
+  transition: 6s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(270) {
+  background-color: rgb(198, 170, 49);
+  bottom: -305px;
+  left: 80%;
+  transition: 8s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(271) {
+  background-color: rgb(17, 178, 33);
+  bottom: -495px;
+  left: 12%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(272) {
+  background-color: rgb(222, 32, 109);
+  bottom: -725px;
+  left: 30%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(273) {
+  background-color: rgb(69, 155, 123);
+  bottom: -481px;
+  left: 90%;
+  transition: 11s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(274) {
+  background-color: rgb(146, 125, 42);
+  bottom: -423px;
+  left: 31%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(275) {
+  background-color: rgb(157, 21, 221);
+  bottom: -784px;
+  left: 63%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(276) {
+  background-color: rgb(56, 146, 201);
+  bottom: -20px;
+  left: 55%;
+  transition: 15s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(277) {
+  background-color: rgb(41, 194, 67);
+  bottom: -706px;
+  left: 8%;
+  transition: 9s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(278) {
+  background-color: rgb(153, 12, 69);
+  bottom: -334px;
+  left: 9%;
+  transition: 15s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(279) {
+  background-color: rgb(59, 129, 154);
+  bottom: -227px;
+  left: 93%;
+  transition: 12s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(280) {
+  background-color: rgb(157, 245, 176);
+  bottom: -547px;
+  left: 17%;
+  transition: 11s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(281) {
+  background-color: rgb(10, 55, 200);
+  bottom: -72px;
+  left: 91%;
+  transition: 10s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(282) {
+  background-color: rgb(191, 186, 212);
+  bottom: -576px;
+  left: 3%;
+  transition: 6s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(283) {
+  background-color: rgb(27, 50, 202);
+  bottom: -8px;
+  left: 55%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(284) {
+  background-color: rgb(173, 129, 225);
+  bottom: -433px;
+  left: 22%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(285) {
+  background-color: rgb(64, 119, 8);
+  bottom: -298px;
+  left: 28%;
+  transition: 7s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(286) {
+  background-color: rgb(41, 247, 22);
+  bottom: -761px;
+  left: 22%;
+  transition: 10s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(287) {
+  background-color: rgb(69, 188, 141);
+  bottom: -712px;
+  left: 62%;
+  transition: 7s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(288) {
+  background-color: rgb(71, 50, 143);
+  bottom: -231px;
+  left: 82%;
+  transition: 14s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(289) {
+  background-color: rgb(245, 243, 241);
+  bottom: -310px;
+  left: 43%;
+  transition: 8s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(290) {
+  background-color: rgb(113, 102, 13);
+  bottom: -131px;
+  left: 50%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(291) {
+  background-color: rgb(212, 151, 186);
+  bottom: -784px;
+  left: 55%;
+  transition: 11s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(292) {
+  background-color: rgb(1, 202, 50);
+  bottom: -176px;
+  left: 11%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(293) {
+  background-color: rgb(205, 160, 205);
+  bottom: -62px;
+  left: 46%;
+  transition: 6s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(294) {
+  background-color: rgb(76, 83, 221);
+  bottom: -366px;
+  left: 25%;
+  transition: 10s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(295) {
+  background-color: rgb(147, 201, 35);
+  bottom: -684px;
+  left: 75%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(296) {
+  background-color: rgb(31, 117, 131);
+  bottom: -628px;
+  left: 92%;
+  transition: 13s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(297) {
+  background-color: rgb(38, 63, 15);
+  bottom: -511px;
+  left: 52%;
+  transition: 8s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(298) {
+  background-color: rgb(158, 157, 249);
+  bottom: -440px;
+  left: 93%;
+  transition: 8s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(299) {
+  background-color: rgb(17, 70, 31);
+  bottom: -610px;
+  left: 67%;
+  transition: 6s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(300) {
+  background-color: rgb(75, 217, 117);
+  bottom: -173px;
+  left: 10%;
+  transition: 14s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(301) {
+  background-color: rgb(48, 51, 240);
+  bottom: -350px;
+  left: 95%;
+  transition: 13s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(302) {
+  background-color: rgb(164, 28, 187);
+  bottom: -655px;
+  left: 23%;
+  transition: 12s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(303) {
+  background-color: rgb(140, 146, 25);
+  bottom: -431px;
+  left: 93%;
+  transition: 12s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(304) {
+  background-color: rgb(139, 3, 173);
+  bottom: -548px;
+  left: 100%;
+  transition: 8s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(305) {
+  background-color: rgb(133, 239, 116);
+  bottom: -157px;
+  left: 21%;
+  transition: 6s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(306) {
+  background-color: rgb(159, 176, 56);
+  bottom: -273px;
+  left: 87%;
+  transition: 10s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(307) {
+  background-color: rgb(142, 44, 148);
+  bottom: -446px;
+  left: 57%;
+  transition: 11s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(308) {
+  background-color: rgb(234, 14, 90);
+  bottom: -672px;
+  left: 15%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(309) {
+  background-color: rgb(222, 190, 171);
+  bottom: -618px;
+  left: 53%;
+  transition: 10s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(310) {
+  background-color: rgb(119, 121, 144);
+  bottom: -533px;
+  left: 43%;
+  transition: 6s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(311) {
+  background-color: rgb(176, 102, 111);
+  bottom: -4px;
+  left: 45%;
+  transition: 9s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(312) {
+  background-color: rgb(156, 253, 55);
+  bottom: -655px;
+  left: 34%;
+  transition: 9s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(313) {
+  background-color: rgb(145, 22, 172);
+  bottom: -153px;
+  left: 58%;
+  transition: 10s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(314) {
+  background-color: rgb(215, 149, 157);
+  bottom: -97px;
+  left: 79%;
+  transition: 14s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(315) {
+  background-color: rgb(249, 197, 34);
+  bottom: -402px;
+  left: 83%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(316) {
+  background-color: rgb(253, 234, 214);
+  bottom: -452px;
+  left: 3%;
+  transition: 12s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(317) {
+  background-color: rgb(32, 143, 211);
+  bottom: -44px;
+  left: 65%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(318) {
+  background-color: rgb(99, 182, 198);
+  bottom: -555px;
+  left: 97%;
+  transition: 6s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(319) {
+  background-color: rgb(178, 37, 209);
+  bottom: -101px;
+  left: 96%;
+  transition: 14s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(320) {
+  background-color: rgb(177, 238, 75);
+  bottom: -68px;
+  left: 81%;
+  transition: 10s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(321) {
+  background-color: rgb(16, 16, 6);
+  bottom: -282px;
+  left: 43%;
+  transition: 14s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(322) {
+  background-color: rgb(53, 52, 244);
+  bottom: -274px;
+  left: 41%;
+  transition: 7s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(323) {
+  background-color: rgb(55, 187, 215);
+  bottom: -318px;
+  left: 9%;
+  transition: 12s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(324) {
+  background-color: rgb(108, 204, 46);
+  bottom: -8px;
+  left: 2%;
+  transition: 10s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(325) {
+  background-color: rgb(175, 226, 237);
+  bottom: -186px;
+  left: 49%;
+  transition: 15s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(326) {
+  background-color: rgb(76, 110, 49);
+  bottom: -428px;
+  left: 50%;
+  transition: 14s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(327) {
+  background-color: rgb(162, 145, 46);
+  bottom: -424px;
+  left: 98%;
+  transition: 11s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(328) {
+  background-color: rgb(141, 171, 255);
+  bottom: -95px;
+  left: 56%;
+  transition: 15s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(329) {
+  background-color: rgb(51, 80, 142);
+  bottom: -166px;
+  left: 66%;
+  transition: 13s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(330) {
+  background-color: rgb(52, 116, 82);
+  bottom: -534px;
+  left: 3%;
+  transition: 12s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(331) {
+  background-color: rgb(109, 97, 21);
+  bottom: -57px;
+  left: 90%;
+  transition: 13s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(332) {
+  background-color: rgb(180, 98, 248);
+  bottom: -638px;
+  left: 46%;
+  transition: 12s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(333) {
+  background-color: rgb(206, 48, 230);
+  bottom: -91px;
+  left: 11%;
+  transition: 13s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(334) {
+  background-color: rgb(139, 13, 104);
+  bottom: -103px;
+  left: 57%;
+  transition: 15s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(335) {
+  background-color: rgb(179, 157, 74);
+  bottom: -56px;
+  left: 48%;
+  transition: 11s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(336) {
+  background-color: rgb(107, 54, 68);
+  bottom: -397px;
+  left: 74%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(337) {
+  background-color: rgb(135, 29, 3);
+  bottom: -165px;
+  left: 14%;
+  transition: 11s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(338) {
+  background-color: rgb(82, 37, 195);
+  bottom: -775px;
+  left: 26%;
+  transition: 8s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(339) {
+  background-color: rgb(91, 45, 19);
+  bottom: -451px;
+  left: 72%;
+  transition: 10s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(340) {
+  background-color: rgb(146, 128, 18);
+  bottom: -96px;
+  left: 83%;
+  transition: 6s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(341) {
+  background-color: rgb(2, 129, 126);
+  bottom: -325px;
+  left: 26%;
+  transition: 10s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(342) {
+  background-color: rgb(64, 95, 21);
+  bottom: -260px;
+  left: 41%;
+  transition: 13s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(343) {
+  background-color: rgb(21, 34, 222);
+  bottom: -304px;
+  left: 74%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(344) {
+  background-color: rgb(101, 209, 159);
+  bottom: -213px;
+  left: 39%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(345) {
+  background-color: rgb(13, 129, 81);
+  bottom: -619px;
+  left: 49%;
+  transition: 7s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(346) {
+  background-color: rgb(77, 27, 88);
+  bottom: -328px;
+  left: 5%;
+  transition: 11s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(347) {
+  background-color: rgb(92, 102, 62);
+  bottom: -556px;
+  left: 44%;
+  transition: 10s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(348) {
+  background-color: rgb(247, 217, 43);
+  bottom: -29px;
+  left: 99%;
+  transition: 12s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(349) {
+  background-color: rgb(188, 44, 208);
+  bottom: -237px;
+  left: 1%;
+  transition: 9s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(350) {
+  background-color: rgb(44, 238, 138);
+  bottom: -611px;
+  left: 39%;
+  transition: 13s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(351) {
+  background-color: rgb(80, 77, 11);
+  bottom: -110px;
+  left: 96%;
+  transition: 6s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(352) {
+  background-color: rgb(202, 80, 193);
+  bottom: -202px;
+  left: 56%;
+  transition: 6s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(353) {
+  background-color: rgb(188, 152, 40);
+  bottom: -289px;
+  left: 4%;
+  transition: 9s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(354) {
+  background-color: rgb(133, 32, 158);
+  bottom: -697px;
+  left: 77%;
+  transition: 11s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(355) {
+  background-color: rgb(223, 34, 245);
+  bottom: -396px;
+  left: 58%;
+  transition: 6s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(356) {
+  background-color: rgb(6, 130, 155);
+  bottom: -311px;
+  left: 94%;
+  transition: 15s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(357) {
+  background-color: rgb(150, 3, 88);
+  bottom: -172px;
+  left: 76%;
+  transition: 7s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(358) {
+  background-color: rgb(101, 234, 206);
+  bottom: -425px;
+  left: 39%;
+  transition: 7s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(359) {
+  background-color: rgb(198, 197, 117);
+  bottom: -455px;
+  left: 26%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(360) {
+  background-color: rgb(22, 200, 158);
+  bottom: -91px;
+  left: 82%;
+  transition: 13s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(361) {
+  background-color: rgb(181, 153, 241);
+  bottom: -661px;
+  left: 75%;
+  transition: 15s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(362) {
+  background-color: rgb(104, 29, 119);
+  bottom: -542px;
+  left: 22%;
+  transition: 15s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(363) {
+  background-color: rgb(68, 42, 211);
+  bottom: -116px;
+  left: 57%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(364) {
+  background-color: rgb(165, 25, 175);
+  bottom: -239px;
+  left: 25%;
+  transition: 14s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(365) {
+  background-color: rgb(215, 145, 65);
+  bottom: -695px;
+  left: 33%;
+  transition: 7s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(366) {
+  background-color: rgb(93, 24, 194);
+  bottom: -21px;
+  left: 50%;
+  transition: 8s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(367) {
+  background-color: rgb(69, 153, 59);
+  bottom: -367px;
+  left: 24%;
+  transition: 10s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(368) {
+  background-color: rgb(64, 52, 75);
+  bottom: -366px;
+  left: 5%;
+  transition: 13s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(369) {
+  background-color: rgb(9, 48, 107);
+  bottom: -512px;
+  left: 17%;
+  transition: 15s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(370) {
+  background-color: rgb(125, 247, 151);
+  bottom: -277px;
+  left: 13%;
+  transition: 11s;
+  width: 5px;
+  height: 5px;
+}
+main > div:nth-of-type(371) {
+  background-color: rgb(104, 7, 68);
+  bottom: -72px;
+  left: 8%;
+  transition: 13s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(372) {
+  background-color: rgb(237, 13, 197);
+  bottom: -507px;
+  left: 77%;
+  transition: 15s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(373) {
+  background-color: rgb(26, 102, 189);
+  bottom: -708px;
+  left: 52%;
+  transition: 7s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(374) {
+  background-color: rgb(56, 206, 188);
+  bottom: -788px;
+  left: 66%;
+  transition: 10s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(375) {
+  background-color: rgb(23, 187, 107);
+  bottom: -672px;
+  left: 94%;
+  transition: 8s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(376) {
+  background-color: rgb(71, 223, 15);
+  bottom: -173px;
+  left: 100%;
+  transition: 13s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(377) {
+  background-color: rgb(6, 13, 7);
+  bottom: -578px;
+  left: 23%;
+  transition: 11s;
+  width: 2px;
+  height: 2px;
+}
+main > div:nth-of-type(378) {
+  background-color: rgb(51, 149, 15);
+  bottom: -382px;
+  left: 72%;
+  transition: 14s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(379) {
+  background-color: rgb(155, 33, 232);
+  bottom: -562px;
+  left: 53%;
+  transition: 6s;
+  width: 9px;
+  height: 9px;
+}
+main > div:nth-of-type(380) {
+  background-color: rgb(3, 255, 27);
+  bottom: -551px;
+  left: 67%;
+  transition: 13s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(381) {
+  background-color: rgb(33, 144, 206);
+  bottom: -626px;
+  left: 75%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(382) {
+  background-color: rgb(21, 59, 60);
+  bottom: -560px;
+  left: 60%;
+  transition: 10s;
+  width: 7px;
+  height: 7px;
+}
+main > div:nth-of-type(383) {
+  background-color: rgb(137, 152, 65);
+  bottom: -635px;
+  left: 76%;
+  transition: 11s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(384) {
+  background-color: rgb(37, 118, 248);
+  bottom: -506px;
+  left: 98%;
+  transition: 13s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(385) {
+  background-color: rgb(37, 18, 31);
+  bottom: -662px;
+  left: 86%;
+  transition: 14s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(386) {
+  background-color: rgb(153, 44, 204);
+  bottom: -59px;
+  left: 10%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(387) {
+  background-color: rgb(98, 177, 163);
+  bottom: -49px;
+  left: 8%;
+  transition: 12s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(388) {
+  background-color: rgb(193, 237, 234);
+  bottom: -775px;
+  left: 85%;
+  transition: 13s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(389) {
+  background-color: rgb(215, 12, 243);
+  bottom: -545px;
+  left: 91%;
+  transition: 9s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(390) {
+  background-color: rgb(74, 106, 107);
+  bottom: -579px;
+  left: 46%;
+  transition: 12s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(391) {
+  background-color: rgb(72, 228, 81);
+  bottom: -623px;
+  left: 70%;
+  transition: 7s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(392) {
+  background-color: rgb(111, 22, 82);
+  bottom: -254px;
+  left: 83%;
+  transition: 11s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(393) {
+  background-color: rgb(21, 64, 207);
+  bottom: -359px;
+  left: 97%;
+  transition: 11s;
+  width: 4px;
+  height: 4px;
+}
+main > div:nth-of-type(394) {
+  background-color: rgb(38, 88, 167);
+  bottom: -52px;
+  left: 64%;
+  transition: 12s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(395) {
+  background-color: rgb(39, 93, 154);
+  bottom: -556px;
+  left: 4%;
+  transition: 11s;
+  width: 6px;
+  height: 6px;
+}
+main > div:nth-of-type(396) {
+  background-color: rgb(2, 143, 49);
+  bottom: -325px;
+  left: 79%;
+  transition: 12s;
+  width: 8px;
+  height: 8px;
+}
+main > div:nth-of-type(397) {
+  background-color: rgb(238, 12, 146);
+  bottom: -516px;
+  left: 64%;
+  transition: 14s;
+  width: 1px;
+  height: 1px;
+}
+main > div:nth-of-type(398) {
+  background-color: rgb(44, 93, 208);
+  bottom: -315px;
+  left: 38%;
+  transition: 8s;
+  width: 10px;
+  height: 10px;
+}
+main > div:nth-of-type(399) {
+  background-color: rgb(90, 172, 250);
+  bottom: -209px;
+  left: 77%;
+  transition: 10s;
+  width: 3px;
+  height: 3px;
+}
+main > div:nth-of-type(400) {
+  background-color: rgb(190, 122, 24);
+  bottom: -747px;
+  left: 48%;
+  transition: 15s;
+  width: 3px;
+  height: 3px;
+}
+main:hover > div {
+  bottom: 2000px;
+}/*# sourceMappingURL=master3.css.map */

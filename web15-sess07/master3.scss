@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    // position: relative;
+    background-image: linear-gradient(45deg,rgb(33, 33, 54) ,rgb(23, 23, 46) , rgb(35, 35, 91));
+    overflow: hidden;
+    transition: 50s;
+    position: relative;
+   
+   >div{
+        position: absolute;
+        border-radius: 50%;
+
+    @for $i from 1 through 400{
+        &:nth-of-type(#{$i}){
+            $wh:random(10);
+            background-color: rgb(random(256), random(256), random(256));
+            bottom: -(random(800)+px);
+            left: random(100)+0%;
+            transition: (random(10)+5)+s;
+            width: $wh+px;
+            height: $wh+px;
+
+        }
+        $i: i+1;
+
+    }
+   }
+   &:hover>div{
+    bottom: 2000px;
+
+}
+
+
+}
+
+
+
